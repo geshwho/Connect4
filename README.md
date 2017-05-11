@@ -10,4 +10,4 @@ This is a recursive program that goes back and forth calling `Player1` and `Play
 ### Connect7.rb
 Essentially the same as Connect6, but making use of Ruby Threads.
 
-Each of the seven Threads makes one of the 7 first moves by Player1 and then continues recursing. Not the most efficient use of threads, but offers large improvements over Conncet6 if using a version of ruby supporting tru OS level threading and doesnt suffer from GIL
+Each of the seven Threads makes one of the 7 first moves by Player1 and then continues recursing. Not the most efficient use of threads, but offers large improvements over Conncet6 if using an interpreter supporting tru OS level threading and doesnt suffer from GIL (Jruby)
